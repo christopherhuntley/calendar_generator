@@ -20,5 +20,5 @@ The current state of the code is pretty raw and is not intended to be production
 ![Create a new calendar](img/NewCalendar.png)
 4. Import the calendar events from one or more of the `.ics` files in the `calendars` folder. The import for IS240 (CRN 34644) is shown below.  
 ![Import Class Schedule](img/ImportSelector.png)
-5. The classes should now appear on your new class calendar. The schedules take into account school holidays but does not include Final Exams. (Finals will have to be accounted for separately.) The finished calendar with IS240, IS260, and IS320 are shown below.  
+5. The classes should now appear on your new class calendar. The schedules take into account school holidays but does not include Final Exams. (Finals will have to be accounted for separately.) The finished calendar with IS240, IS260, and IS320 classes is shown below.  
 ![Finished Calendar Import](img/FinishedCalendar.png)

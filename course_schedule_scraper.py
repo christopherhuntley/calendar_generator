@@ -12,6 +12,8 @@ Currently works for the Spring 2018 Course Booklet.
 import re
 import csv
 import json
+
+#conda install beautifulsoup4
 from bs4 import BeautifulSoup
 
 # conda install beautifulsoup4

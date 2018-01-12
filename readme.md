@@ -1,9 +1,7 @@
 # Course Calendar Generator
 
 This python project generates iCal files for class schedules scraped from Banner.
-While the code is designed to scrape Fairfield University course data,
-it could be adapted from other schools if needed. Many, many schools use Banner
-to administer course scheduling and registration.  
+While the code is designed to scrape Fairfield University course data, it could be adapted from other schools if needed. Many, many schools use Banner for course scheduling and registration.  
 
 The code is divided into two Python scripts:
 * `course_schedule_scraper.py`, which generates JSON-formatted course data based on an HTML dump from Banner Web.
@@ -20,5 +18,5 @@ The current state of the code is pretty raw and is not intended to be production
 ![Create a new calendar](img/NewCalendar.png)
 4. Import the calendar events from one or more of the `.ics` files in the `calendars` folder. The import for IS240 (CRN 34644) is shown below.  
 ![Import Class Schedule](img/ImportSelector.png)
-5. The classes should now appear on your new class calendar. The schedules take into account school holidays but does not include Final Exams. (Finals will have to be accounted for separately.) The finished calendar with IS240, IS260, and IS320 classes is shown below.  
+5. The classes should now appear on your new class calendar. The schedules take into account school holidays but do not include Final Exams. (Finals will have to be accounted for separately.) The finished calendar with IS240, IS260, and IS320 classes is shown below.  
 ![Finished Calendar Import](img/FinishedCalendar.png)

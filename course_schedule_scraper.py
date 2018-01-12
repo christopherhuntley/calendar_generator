@@ -6,7 +6,7 @@ Created on Tue Dec  5 12:57:56 2017
 @author: chuntley
 
 A utility for Fairfield U course data from text scraped PDF files using tabula.
-Currently works for the Spring 2018 Course Booklet.
+Currently works for the Spring 2018 Course Booklet and HTML snapshots from banner.
 """
 
 import re

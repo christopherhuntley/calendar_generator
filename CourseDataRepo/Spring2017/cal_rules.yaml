@@ -1,0 +1,8 @@
+term: Spring2017
+term-year: 2017
+date-shift-rules:
+  - {from-date: '2017-02-20', to-date: '2017-02-21',exclusions: ['NS [0-9][5-9][0-9][0-9]','NSAN [0-9][5-9][0-9][0-9]','NSMW [0-9][5-9][0-9][0-9]']}
+holiday-rules:
+  - {start-dt: '2017-02-20T00:00', end-dt: '2017-02-21T00:00'} # President's Day
+  - {start-dt: '2017-03-12T00:00', end-dt: '2017-03-19T23:59'} # Spring Recess
+  - {start-dt: '2017-04-13T16:55', end-dt: '2017-04-17T16:55'}  # Easter

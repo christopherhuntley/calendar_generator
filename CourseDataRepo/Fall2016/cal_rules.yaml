@@ -1,0 +1,6 @@
+term: Fall2016
+term-year: 2016
+holiday-rules:
+  - {start-dt: '2016-10-10T00:00', end-dt: '2016-10-11T00:00'} # Columbus Day
+  - {start-dt: '2016-10-11T00:00', end-dt: '2016-10-12T00:00',exclusions:['[0-9][5-9][0-9][0-9]']} # Extended Columbus Day
+  - {start-dt: '2016-11-23T00:00', end-dt: '2016-11-28T00:00'} # Thanksgiving

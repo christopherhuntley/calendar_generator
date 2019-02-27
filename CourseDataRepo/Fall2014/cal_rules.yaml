@@ -1,0 +1,6 @@
+term: Fall2014
+term-year: 2014
+holiday-rules:
+  - {start-dt: '2014-10-13T00:00', end-dt: '2014-10-14T00:00'} # Columbus Day
+  - {start-dt: '2014-10-14T00:00', end-dt: '2014-10-15T00:00',exclusions:['[0-9][5-9][0-9][0-9]']} # Extended Columbus Day
+  - {start-dt: '2014-11-26T00:00', end-dt: '2014-12-01T00:00'} # Thanksgiving

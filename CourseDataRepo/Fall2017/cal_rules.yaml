@@ -1,0 +1,5 @@
+term: Fall2017
+term-year: 2017
+holiday-rules:
+  - {start-dt: '2017-10-09T00:00', end-dt: '2017-10-11T00:00'} # Columbus Day
+  - {start-dt: '2017-11-22T00:00', end-dt: '2017-11-27T00:00'} # Thanksgiving

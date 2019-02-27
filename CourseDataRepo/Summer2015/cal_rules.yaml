@@ -1,0 +1,5 @@
+term: Summer2015
+term-year: 2015
+holiday-rules:
+  - {start-dt: '2015-05-25T00:00', end-dt: '2015-05-25T23:59'} # Memorial Day
+  - {start-dt: '2015-07-04T00:00', end-dt: '2015-07-05T00:00'}  # Independence Day

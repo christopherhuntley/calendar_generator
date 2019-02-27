@@ -1,0 +1,26 @@
+term,crn,catalog_id,section,credits,title,meetings,timecodes,primary_instructor,cap,act,rem
+Winter2015,10913,AC 0555,01,3.000,Issues in Internal Audit,"[{'days': 'MTWRF', 'times': '1000am-0600pm', 'dates': '01/05-01/17', 'location': 'DSB 115'}, {'days': 'S', 'times': '0830am-0430pm', 'dates': '01/05-01/17', 'location': 'DSB 115'}]","['MTWRF 1000am-0600pm 01/05-01/17 DSB 115', 'S 0830am-0430pm 01/05-01/17 DSB 115']",Dawn W  Massey,18,10,8
+Winter2015,10910,AH 0011,01,3.000,Visual Culture Since 1400: Expression and Experimentation,[],[],Lauren Elise  Cesiro,20,16,4
+Winter2015,10893,BI 0075,01,3.000,Ecology and Society,[],[],Thomas B.  Cunningham,20,22,-2
+Winter2015,10916,BI 0075,02,3.000,Ecology and Society,[],[],Thomas B.  Cunningham,20,19,1
+Winter2015,10911,BU 0211,A,3.000,Legal Environment of Business,"[{'days': 'MTWRF', 'times': '0830am-0430pm', 'dates': '01/05-01/09', 'location': 'DSB 109'}]",['MTWRF 0830am-0430pm 01/05-01/09 DSB 109'],Sharlene A.  McEvoy,15,16,-1
+Winter2015,10894,CO 0100,01,3.000,Human Communication Theories,[],[],David   Gudelunas,20,14,6
+Winter2015,10895,CO 0240,01,3.000,Intercultural Communication,[],[],Qin   Zhang,20,11,9
+Winter2015,10896,CO 0246,A,3.000,Family Communication,"[{'days': 'MTWRF', 'times': '0830am-0430pm', 'dates': '01/05-01/09', 'location': 'DMH 347'}]",['MTWRF 0830am-0430pm 01/05-01/09 DMH 347'],Margaret A.  Wills,15,12,3
+Winter2015,10897,CO 0398,A,1.000,Internship,[],[],David   Gudelunas,0,1,-1
+Winter2015,10898,EC 0011,01,3.000,Introduction to Microeconomics,[],[],William F.  Vasquez Mazariegos,20,9,11
+Winter2015,10907,MD 0463,01,3.000,Methods for School Library Media,[],[],Gayle A.  Bogel,16,10,6
+Winter2015,10900,EN 0101,01,3.000,Introduction to Literary and Cultural Studies,[],[],Gita   Rajan,20,20,0
+Winter2015,10919,EN 0101,02,3.000,Introduction to Literary and Cultural Studies,[],[],Gita   Rajan,20,9,11
+Winter2015,10901,ENW 0332,01,3.000,Business Writing,[],[],Maeve L.  Lucey,20,8,12
+Winter2015,10918,ENW 0444,01,6.000,Fiction: Part I,[],[],Michael C.  White,1,1,0
+Winter2015,10912,IS 0500,01,3.000,Information Systems and Database Management,"[{'days': 'MTWR', 'times': '0600pm-0930pm', 'dates': '01/05-01/17', 'location': 'DSB 107'}, {'days': 'S', 'times': '0830am-0430pm', 'dates': '01/05-01/17', 'location': 'DSB 107'}]","['MTWR 0600pm-0930pm 01/05-01/17 DSB 107', 'S 0830am-0430pm 01/05-01/17 DSB 107']",Jay   Krishnamoorthy,25,10,15
+Winter2015,10909,MG 0500,01,3.000,Leadership,"[{'days': 'MTWR', 'times': '0600pm-0930pm', 'dates': '01/05-01/17', 'location': 'DSB 111'}, {'days': 'S', 'times': '0830am-0430pm', 'dates': '01/05-01/17', 'location': 'DSB 111'}]","['MTWR 0600pm-0930pm 01/05-01/17 DSB 111', 'S 0830am-0430pm 01/05-01/17 DSB 111']",Lisa A.  Mainiero,15,10,5
+Winter2015,10902,MA 0017,01,3.000,Introduction to Probability and Statistics,[],[],Robert James  Parisi,20,16,4
+Winter2015,10903,MU 0102,A,3.000,History and Development of Rock,"[{'days': 'MTW', 'times': '0830am-0430pm', 'dates': '01/05-01/13', 'location': 'JGS 25'}]",['MTW 0830am-0430pm 01/05-01/13 JGS 25'],Brian Q.  Torff,15,15,0
+Winter2015,10920,NS 0687,D01,1.000-5.000,DNP Immersion,[],[],Kathleen A.  Wheeler,30,4,26
+Winter2015,10917,PS 0078,01,3.000,The Nature of the Universe,[],[],Joachim   Kuhn,20,11,9
+Winter2015,10904,PO 0133,01,3.000,United States Foreign Policy,[],[],Lucrecia   Garcia Iommi,20,19,1
+Winter2015,10908,MPA 0420,01,3.000,Leadership,"[{'days': 'MTWR', 'times': '0600pm-0930pm', 'dates': '01/05-01/17', 'location': 'DSB 111'}, {'days': 'S', 'times': '0830am-0430pm', 'dates': '01/05-01/17', 'location': 'DSB 111'}]","['MTWR 0600pm-0930pm 01/05-01/17 DSB 111', 'S 0830am-0430pm 01/05-01/17 DSB 111']",Lisa A.  Mainiero,15,3,12
+Winter2015,10906,SO 0279,A,3.000,Criminal Justice System Seminar,"[{'days': 'MTWRF', 'times': '0830am-0430pm', 'dates': '01/05-01/09', 'location': 'DMH 231'}]",['MTWRF 0830am-0430pm 01/05-01/09 DMH 231'],Rose P.  Rodrigues,15,11,4
+Winter2015,10905,SA 0139,A,3.000,Watercolor,"[{'days': 'MTWRF', 'times': '0830am-0430pm', 'dates': '01/05-01/09', 'location': 'LYL 8'}]",['MTWRF 0830am-0430pm 01/05-01/09 LYL 8'],Suzanne   Chamlin-Richer,15,18,-3

@@ -1,0 +1,9 @@
+term: Spring2016
+term-year: 2016
+date-shift-rules:
+  - {from-date: '2016-02-15', to-date: '2016-02-16',exclusions: ['[0-9][5-9][0-9][0-9]']}
+holiday-rules:
+  - {start-dt: '2016-02-15T00:00', end-dt: '2016-02-16T00:00'} # President's Day
+  - {start-dt: '2016-03-7T00:00', end-dt: '2016-03-13T23:59'} # Spring Recess
+  - {start-dt: '2016-03-24T00:00', end-dt: '2016-03-28T00:00',exclusions: ['[0-9][0-4][0-9][0-9]']}  # Grad Easter
+  - {start-dt: '2016-03-25T00:00', end-dt: '2016-03-29T00:00',exclusions: ['[0-9][5-9][0-9][0-9]']}  # UG Easter

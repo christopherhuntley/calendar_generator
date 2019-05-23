@@ -57,10 +57,11 @@ def generate_term_repos():
             with term_folder_path.joinpath("Calendars").joinpath(str(c['crn'])+".ics").open("wb") as icalfile:
                 icalfile.write(cal)
         with term_folder_path.joinpath('course_meetings.csv').open('w',newline='') as csvfile:
-            field_names = meetings[0].keys()
+            field_names = ['term']+ list(meetings[0].keys())
             writer = csv.DictWriter(csvfile,field_names)
             writer.writeheader()
             for meeting in meetings:
+                meeting['term'] = term_name
                 writer.writerow(meeting)
 
 

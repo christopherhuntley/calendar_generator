@@ -35,7 +35,6 @@ def generate_course_calendar(course,cal_rules):
     Timecodes are dicts with 'days' (of week),'times' (range),'dates' (range), and 'location'
     '''
 
-    mdates = []
     meetings=[]
     cal = Calendar()
     cal['summary'] = str(course['crn']) + " " + course['catalog_id']+" "+ str(course['section'])
@@ -43,6 +42,7 @@ def generate_course_calendar(course,cal_rules):
 
     # generate one recurring event per timecode
     for meeting in course['meetings']:
+        mdates = []
 
         # skip if there are no days
         if not meeting['days'] or meeting['days'] == [''] or meeting['days'] == '\xa0':
@@ -71,6 +71,8 @@ def generate_course_calendar(course,cal_rules):
         # use datetime and dateutil to enumerate all the event start times
         tc_rrule = ''
         if startdate==enddate:
+            if course['crn']==39006:
+                print("AAAA", startdate)
             mdates += [datetime.combine(startdate,starttime.time())]
         else:
             wdays =[tc_day_map_du[d] for d in meeting['days']]
@@ -80,6 +82,8 @@ def generate_course_calendar(course,cal_rules):
             # print(course['crn'],datetime.combine(startdate,starttime.time()),wdays)
             mdates += list(tc_rrule)
 
+        if course['crn']==39006:
+            print("DDDD", mdates)
 
         # the first icalendar event
         event.add('dtstart',datetime.combine(mdates[0].date(),starttime.time()))
@@ -145,6 +149,8 @@ def generate_course_calendar(course,cal_rules):
         cal.add_component(event)
 
         # add an event for each new_date not covered by the recurrence rule
+        if course['crn']==39006:
+            print("BBBB", new_dates)
         for new_date in new_dates:
             mdates += [new_date['dtstart']]
             new_event = Event()
@@ -153,6 +159,8 @@ def generate_course_calendar(course,cal_rules):
             new_event.add('dtend',new_date['dtend'])
             cal.add_component(new_event)
 
+        if course['crn']==39006:
+            print("CCCC", mdates)
         for m in mdates:
             starttime_iso = datetime.isoformat(datetime.combine(m.date(),starttime.time()))
             endtime_iso = datetime.isoformat(datetime.combine(m.date(),endtime.time()))
